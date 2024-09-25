@@ -5,6 +5,8 @@ Island Perimeter
 
 
 def island_perimeter(grid):
+    """Computes the perimeter of an island with no lakes.
+    """
     visit = set()
 
     def dfs(i, j):
